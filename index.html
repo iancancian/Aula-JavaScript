@@ -6,7 +6,12 @@
     <title>JavaScript</title>
 </head>
 <body>
+
     <script>
+            //NO TERMINAL:
+            //1- git init  2- git status 3- git add .  4- git status  5- git commit -m " "  5-git push
+            //esse é o processo padrão
+
         //CRIANDO UMA VARIAVEL INDEFINIDA
 
         let nome;
@@ -14,13 +19,32 @@
 
         //CRIANDO UMA VARIAVEL VAZIA
 
-        let disciplina =null
-        console.log(disciplina)
+        let disciplina = null;
+        console.log(disciplina);
 
         //CRIANDO UMA VARIAVEL COM VALOR
 
-        let texto="Exemplo com valor"
-        console.log(texto)
+        let texto="Exemplo com valor";
+        console.log(texto);
+
+        //CONVERTENDO DE FLOAT PARA INT
+
+        let numFloat = 125.666;
+        console.log(parseInt(numFloat));
+        //parse+condição q vc quer converter (nome da variavel)
+
+        //CONVERTENDO DE STR PARA FLOAT
+
+        let numString = "125.666";
+        console.log(parseFloat(numString));
+
+        //CONVERTENDO DE FLOAT PARA STR
+
+        let numFloat2 = 125.666;
+        console.log(numFloat2.toString());
+        //Verifica o tipo da variável
+        let verificar = typeof numFloat2;
+        console.log(verificar);
 
     </script>
     
